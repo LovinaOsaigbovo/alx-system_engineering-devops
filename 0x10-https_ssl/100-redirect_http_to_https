@@ -47,5 +47,5 @@ backend webservers
 
         balance roundrobin
         redirect scheme https code 301 if !{ ssl_fc }
-        server 2171-web-01 34.139.86.175:80 check
-        server 2171-web-02 3.239.7.133:80 check
+        server 2171-web-01 54.82.173.1 check
+        server 2171-web-02 54.83.128.241 check
